@@ -1,12 +1,12 @@
 Summary:	Text search application
 Summary(pl):	Aplikacja do przeszukiwania tekstu
 Name:		glark
-Version:	1.7.1
+Version:	1.7.2
 Release:	1
 License:	LGPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	18974b82e7fb9b71b5ef18d141c6ef07
+# Source0-md5:	38b3250313ce1974afb43b39b083ba5c
 URL:		http://glark.sourceforge.net/
 Requires:	ruby
 BuildArch:	noarch
