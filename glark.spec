@@ -5,7 +5,7 @@ Version:	1.7.3
 Release:	1
 License:	LGPL
 Group:		Applications/System
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/glark/%{name}-%{version}.tar.gz
 # Source0-md5:	7fea78bd57431f252dcda40e1810607e
 URL:		http://glark.sourceforge.net/
 Requires:	ruby
