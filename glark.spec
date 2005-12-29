@@ -8,7 +8,9 @@ Group:		Applications/System
 Source0:	http://dl.sourceforge.net/glark/%{name}-%{version}.tar.gz
 # Source0-md5:	ef63b345528d6c90cb9df16bde792566
 URL:		http://glark.sourceforge.net/
-Requires:	ruby-modules
+BuildRequires:	rpmbuild(macros) >= 1.277
+BuildRequires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
