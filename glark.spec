@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/glark/%{name}-%{version}.tar.gz
 URL:		http://glark.sourceforge.net/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
