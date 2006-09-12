@@ -1,12 +1,12 @@
 Summary:	Text search application
 Summary(pl):	Aplikacja do przeszukiwania tekstu
 Name:		glark
-Version:	1.7.5
-Release:	2
+Version:	1.7.10
+Release:	1
 License:	LGPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/glark/%{name}-%{version}.tar.gz
-# Source0-md5:	ef63b345528d6c90cb9df16bde792566
+# Source0-md5:	d8093215231b2ed3801675bed36fc580
 URL:		http://glark.sourceforge.net/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
@@ -29,14 +29,11 @@ oraz "lub"), a tak¿e automatycznie wykluczaj±c pliki nietekstowe.
 %prep
 %setup -q
 
-%build
-%{__make}
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -D %{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
-install -D %{name}.1 $RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -45,3 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/glark
 %{_mandir}/man1/glark.1*
+%{_datadir}/%{name}
