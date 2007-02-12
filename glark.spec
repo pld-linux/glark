@@ -1,5 +1,5 @@
 Summary:	Text search application
-Summary(pl):	Aplikacja do przeszukiwania tekstu
+Summary(pl.UTF-8):   Aplikacja do przeszukiwania tekstu
 Name:		glark
 Version:	1.7.10
 Release:	1
@@ -20,11 +20,11 @@ Perl/Ruby regular expressions, highlighting of matches, context around
 matches, complex expressions (``and'' and ``or''), and automatic
 exclusion of non-text files.
 
-%description -l pl
-glark, podobnie do grepa, przeszukuje pliki tekstowe przy uøyciu
-wyraøeÒ regularnych Perla/Ruby'ego, pod∂wietlaj±c dopasowania,
-obs≥uguj±c kontekst w otoczeniu dopasowania, z≥oøone wyraøenia ("i"
-oraz "lub"), a takøe automatycznie wykluczaj±c pliki nietekstowe.
+%description -l pl.UTF-8
+glark, podobnie do grepa, przeszukuje pliki tekstowe przy u≈ºyciu
+wyra≈ºe≈Ñ regularnych Perla/Ruby'ego, pod≈õwietlajƒÖc dopasowania,
+obs≈ÇugujƒÖc kontekst w otoczeniu dopasowania, z≈Ço≈ºone wyra≈ºenia ("i"
+oraz "lub"), a tak≈ºe automatycznie wykluczajƒÖc pliki nietekstowe.
 
 %prep
 %setup -q
