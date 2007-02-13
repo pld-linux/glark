@@ -1,5 +1,5 @@
 Summary:	Text search application
-Summary(pl.UTF-8):   Aplikacja do przeszukiwania tekstu
+Summary(pl.UTF-8):	Aplikacja do przeszukiwania tekstu
 Name:		glark
 Version:	1.7.10
 Release:	1
